@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MindEase Toolkit</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #c7d8f9;
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #2a4d69;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      color: #4a6fa5;
+    }
+    header a.button {
+      background-color: #4a90e2;
+      color: white;
+      padding: 14px 36px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    header a.button:hover {
+      background-color: #357abd;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto 60px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #2a4d69;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #a9c0f5;
+      padding-bottom: 6px;
+      width: max-content;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+    img.section-img {
+      max-width: 100%;
+      border-radius: 20px;
+      margin: 20px 0 30px 0;
+      box-shadow: 0 8px 20px rgba(74, 111, 165, 0.15);
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      margin-top: 20px;
+    }
+    @media (min-width: 700px) {
+      .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(74, 111, 165, 0.15);
+      color: #2a4d69;
+      font-size: 1rem;
+      line-height: 1.4;
+      transition: transform 0.2s ease;
+      text-align: left;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(74, 111, 165, 0.25);
+    }
+    .card a {
+      color: #4a90e2;
+      font-weight: 700;
+      font-size: 1.15rem;
+      text-decoration: none;
+    }
+    ul.resources {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #444;
+      font-weight: 500;
+    }
+    ul.resources li {
+      margin-bottom: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 12px 15px;
+      border-radius: 12px;
+      border: 1.5px solid #a9c0f5;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #4a90e2;
+      box-shadow: 0 0 8px #a9c0f5;
+    }
+    button {
+      width: fit-content;
+      padding: 12px 30px;
+      background-color: #4a90e2;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #357abd;
+    }
+    @media (max-width: 500px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      .card {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MindEase Toolkit: Your Mental Health Companion</h1>
+    <p>Simple tools, tips, and resources to feel better and stay balanced</p>
+<img src="images/logo.jpg" alt="My Example Image" style="width:100%; max-width:400px;" />
+<a href="#toolkit" class="button">Explore the Toolkit</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About This Project</h2>
+      <p>This toolkit was created by Aditya Dev Biswas a student at JSSPS Dubai with a goal to provide support in a simple manner. It aims to provide simple and practical tools to help fellow teens manage stress, anxiety, and emotional challenges. The MindEase Toolkit is designed to support mental well-being by offering easy exercises, helpful tips, and useful resources that anyone can use to feel more balanced and confident every day.It was designed to be an easy-to-access website that is simple and effortless to navigate.</p>
+    </section>
+
+    <section id="toolkit">
+      <h2>Toolkit Sections</h2>
+      <img src="https://www.google.com/imgres?q=breathing%20exercises&imgurl=https%3A%2F%2Fanmolmehta.s3.amazonaws.com%2Fwp-content%2Fuploads%2F20180130182806%2F3-Powerful-Yogic-Breathing-Exercises-for-Energy.jpg&imgrefurl=https%3A%2F%2Fanmolmehta.com%2Fenergy-breathing-exercises-yogic-breathing-techniques%2F%3Fsrsltid%3DAfmBOorPOZ8knuuQMtAtjQEg3llTk59DQ5zEJtXz8PtkjoiCaq6BcxA2&docid=ByROcqmXqKJJYM&tbnid=9kiYWWRDVChfeM&vet=12ahUKEwiBxeLo0u6OAxXXhf0HHZRUMgYQM3oECCgQAA..i&w=640&h=434&hcb=2&ved=2ahUKEwiBxeLo0u6OAxXXhf0HHZRUMgYQM3oECCgQAA" />
+      <div class="card-grid">
+        <div class="card">
+          <a href="breathing-exercises.html">Breathing Exercises</a>
+          <p>Easy techniques to calm your body and mind.</p>
+        </div>
+
+        <div class="card">
+          <a href="study-stress-tips.html">Study Stress Tips</a>
+          <p>Helpful ways to manage study pressure and anxiety.</p>
+        </div>
+
+        <div class="card">
+          <a href="screen-time-detox.html">Screen-Time Detox Plan</a>
+          <p>Tips to reduce screen use and refresh your mind.</p>
+        </div>
+
+        <div class="card">
+          <a href="mood-tracker.pdf" download>Mood Tracker Template</a><br>
+          Track your feelings and spot patterns over time.
+        </div>
+
+        <div class="card">
+          <strong>Mental Health Helplines</strong>
+          <ul style="list-style-type: none; padding-left: 0; margin: 10px 0 0 0;">
+            <li>Teen Line: 800-852-8336</li>
+            <li>iCall India: +91 9152987821</li>
+            <li>Childline 1098 (India)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources">
+      <h2>Free Resources</h2>
+      <ul class="resources">
+        <li><a href="Self-care-checklist.pdf" target="_blank">Download My PDF (PDF)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Ggcy_4af8LY" target="_blank" rel="noopener noreferrer">Meditation Playlist (YouTube)</a></li>
+        <li><a href="Study-planner-template.pdf" target="_blank">Download My PDF (PDF)</a></li>
+        <li><a href="Affirmations.pdf" target="_blank">Download My PDF (PDF)</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact or Feedback</h2>
+      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=700&q=80" alt="Writing feedback on notebook" class="section-img" />
+      <p>Want to suggest a resource or give feedback? Drop a message below.</p>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
